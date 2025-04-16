@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Splash Screen Background Color -->
+    <color name="splash_screen_background_color">#A4E6FF</color>
+
+    <!-- League Standings Colors -->
+    <color name="default_divider_color">#76737C</color>
+    <color name="league_winner_divider_color">#05C342</color>
+    <color name="champions_league_group_stage_qualified_teams_divider_color">#0769C5</color>
+    <color name="champions_league_qualifiers_teams_divider_color">#7D20C7</color>
+    <color name="europa_league_group_stage_qualified_teams_divider_color">#F25E06</color>
+    <color name="europa_conference_league_qualifiers_teams_divider_color">#05A8A0</color>
+    <color name="league_relegation_play_offs_teams_divider_color">#D7A104</color>
+    <color name="league_relegation_teams_divider_color">#DC3024</color>
+
+    <!-- League Background Color -->
+    <color name="league_logo_bg_color">#1F404040</color>
+    <color name="league_item_bg_color">#05000000</color>
+
+    <!-- Team Background Color -->
+    <color name="circle_team_logo_bg_color">#40000000</color>
+    <color name="circle_winner_team_logo_bg_color">#CC086A22</color>
+
+    <!-- Top 5 Leagues Colors -->
+    <color name="premier_league_color">#5A1675</color>
+    <color name="bundesliga_color">#A80412</color>
+    <color name="ligue1_color">#112344</color>
+    <color name="serie_a_color">#0A7AFF</color>
+    <color name="la_liga_color">#DE3835</color>
+    
+    
+</resources>

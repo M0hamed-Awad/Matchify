@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/league_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:id="@+id/league_inner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="16dp"
+        android:paddingStart="4dp"
+        android:paddingVertical="4dp">
+
+        <ImageView
+            android:id="@+id/league_logo_iv"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="24dp"
+            android:layout_gravity="start"
+            android:contentDescription="@string/league_logo_desc"
+            tools:src="@drawable/premier_league_logo"
+            android:background="@drawable/league_item_bg">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/league_name_tv"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Premier League"
+            android:textStyle="bold"
+            android:textColor="@color/premier_league_color"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

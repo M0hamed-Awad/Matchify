@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/leaguesFragment">
+
+    <fragment
+        android:id="@+id/leaguesFragment"
+        android:name="com.example.matchify.ui.fragments.LeaguesFragment"
+        android:label="fragment_leagues"
+        tools:layout="@layout/fragment_leagues" >
+
+        <action
+            android:id="@+id/action_homeFragment_self"
+            app:destination="@id/leaguesFragment" />
+        <action
+            android:id="@+id/leaguesFragment_navigate_to_fixturesFragment"
+            app:destination="@id/fixturesFragment" />
+        <action
+            android:id="@+id/leaguesFragment_navigate_to_standingsFragment"
+            app:destination="@id/standingsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fixturesFragment"
+        android:name="com.example.matchify.ui.fragments.FixturesFragment"
+        android:label="fragment_fixtures"
+        tools:layout="@layout/fragment_fixtures" >
+
+        <action
+            android:id="@+id/fixturesFragment_navigate_to_leaguesFragment"
+            app:destination="@id/leaguesFragment" />
+
+        <argument
+            android:name="leagueId"
+            app:argType="integer" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/standingsFragment"
+        android:name="com.example.matchify.ui.fragments.StandingsFragment"
+        android:label="fragment_standings"
+        tools:layout="@layout/fragment_standings" >
+
+        <action
+            android:id="@+id/standingsFragment_navigate_to_leaguesFragment"
+            app:destination="@id/leaguesFragment" />
+
+        <argument
+            android:name="leagueId"
+            app:argType="integer" />
+
+    </fragment>
+
+</navigation>

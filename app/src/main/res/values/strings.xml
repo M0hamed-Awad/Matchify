@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Matchify</string>
+    <string name="home_team_logo_desc">Home Team Logo</string>
+    <string name="away_team_logo_desc">Away Team Logo</string>
+    <string name="league_logo_desc">League Logo</string>
+    <string name="main_page_title">All Results for Season 2023 - Round 1</string>
+    <string name="champions_league_group_stage_qualification_color_desc">UEFA Champions League group stage</string>
+    <string name="champions_league_qualifiers_color_desc">UEFA Champions League qualifiers</string>
+    <string name="europa_league_group_stage_qualification_color_desc">Europa League group stage</string>
+    <string name="europa_conference_league_qualifiers_color_desc">Europa Conference League qualifiers</string>
+    <string name="relegation_play_offs_color_desc">Relegation play-offs</string>
+    <string name="relegation_color_desc">Relegation</string>
+    <string name="standing_header_club_name">Club</string>
+    <string name="standing_header_club_points">Pts</string>
+    <string name="standing_header_club_matches_played">MP</string>
+    <string name="standing_header_club_matches_win">W</string>
+    <string name="standing_header_club_matches_drawn">D</string>
+    <string name="standing_header_club_matches_lost">L</string>
+    <string name="standing_header_goals_scored_for_club">GF</string>
+    <string name="standing_header_goals_scored_against_club">GA</string>
+    <string name="standing_header_club_goal_difference">GD</string>
+</resources>
