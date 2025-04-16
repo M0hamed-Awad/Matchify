@@ -72,7 +72,6 @@ implementation(libs.lottie)
 
 ## Screenshots
 
-> *(Insert screenshots here)*
 - **League Selection Screen**  
   ![League Selection Screen](Screenshots/League_Selection_Screen.png "League Selection Screen")
   _Showcase of the Top 5 Leagues._
