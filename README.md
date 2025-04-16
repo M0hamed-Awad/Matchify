@@ -24,8 +24,7 @@
 
 ## Concepts Applied
 
-- Retrofit with custom deserialization (Gson)
-- Type converters & response modeling (**Custom Deserialization**)
+- Retrofit with (**Custom Deserialization**) (Gson)
 - Jetpack Navigation Component + Safe Args
 - LiveData and ViewModel (Lifecycle-aware)
 - RecyclerView with dynamic styling and footer
@@ -38,7 +37,7 @@
 
 - **Kotlin**
 - **MVVM Architecture**
-- **Retrofit + Gson Converter**
+- **Retrofit**
 - **Jetpack ViewModel, LiveData**
 - **RecyclerView + CardView**
 - **Navigation Component**
