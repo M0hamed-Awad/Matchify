@@ -50,7 +50,7 @@
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/Matchify.git
+git clone https://github.com/M0hamed-Awad/Matchify.git
 ```
 2. Open the project in **Android Studio**
 3. Sync Gradle and make sure the following dependencies exist in `build.gradle` (Module :app):
